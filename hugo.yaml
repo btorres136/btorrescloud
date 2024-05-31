@@ -1,0 +1,41 @@
+baseURL: https://btorrescloud.com/
+languageCode: en-us
+title: BTorresCloud
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+
+params:
+  title: BTorresCloud
+  description: "BTorresCloud Website"
+  keywords: [Blog, Personal]
+  author: Brian Torres
+  defaultTheme: dark
+  disableThemeToggle: true
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: ☁️ Brian Torres ☁️
+    subtitle: "...A little empty for now"
+    #imageUrl: ""
+    #imageWidth: 300
+    #imageHeight: 300
+    #imageTitle: Logo
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome!
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/"
+    - name: github
+      url: "https://github.com/btorres136"
+
+menu:
+  main:
+    - identifier: Posts
+      name: Posts
+      url: /posts/
+      weight: 10
